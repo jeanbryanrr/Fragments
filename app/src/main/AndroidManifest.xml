@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FindingFragmentActivity"></activity>
+        <activity android:name=".FragmentArgumentsActivity"></activity>
+        <activity android:name=".FragmentMethodActivity" />
+        <activity android:name=".FindingFragmentActivity" />
         <activity android:name=".FragmentDinamicActivity" />
         <activity android:name=".FragmentStaticActivity" />
         <activity android:name=".MainActivity">

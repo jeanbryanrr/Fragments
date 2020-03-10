@@ -12,7 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.bryanrr.fragments.FindingFragmentActivity;
+import com.bryanrr.fragments.FragmentArgumentsActivity;
 import com.bryanrr.fragments.FragmentDinamicActivity;
+import com.bryanrr.fragments.FragmentMethodActivity;
 import com.bryanrr.fragments.FragmentStaticActivity;
 
 import java.util.List;
@@ -64,6 +66,14 @@ public class StringAdapter extends ArrayAdapter<String> {
 
             case 2:
                 intent = new Intent(context, FindingFragmentActivity.class);
+                context.startActivity(intent);
+                break;
+            case 3:
+                intent = new Intent(context, FragmentArgumentsActivity.class);
+                context.startActivity(intent);
+                break;
+            case 4:
+                intent = new Intent(context, FragmentMethodActivity.class);
                 context.startActivity(intent);
                 break;
         }
